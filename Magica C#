@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Magica
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Vamos fazer uma mágica? ");
+            Console.WriteLine("1- Sim");
+            Console.WriteLine("2- Com certeza");
+
+
+            int alternativa = int.Parse(Console.ReadLine());
+
+            switch (alternativa)
+            {
+                case 1:
+                    {
+                        Console.WriteLine("Bora lá!!\n");
+                        break;
+                    }
+                case 2:
+                    {
+                        Console.WriteLine("Assim que eu gosto !! \n");
+                        break;
+                    }
+
+            }
+
+            Console.WriteLine("Pense em um número de 1 à 9\n\nDigite OK para continuar. . . ");
+            Console.ReadLine();
+
+
+            Console.WriteLine("Agora some +7 a este núméro em sua mente!\n\nDigite OK para continuar. . . ");
+            Console.ReadLine();
+            Console.WriteLine("Somou? Agora, subtraia -5 do resultado!\n\nDigite OK para continuar. . .");
+            Console.ReadLine();
+            Console.WriteLine("Adicione +10\n\nDigite OK para continuar. . .");
+            Console.ReadLine();
+            Console.WriteLine("Por ultimo, mas não menos importante Subtraia o número que você imaginou do resultado atual !!!\n\nDigite OK para continuar. . .");
+            Console.ReadLine();
+            Console.WriteLine("O resultado final é 12 ! ! ");
+            Console.ReadLine();
+
+        }
+    }           
+}
